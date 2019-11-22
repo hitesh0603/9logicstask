@@ -1,0 +1,91 @@
+.projectroles{
+    width: auto;
+    height: 500px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.rolepermission{
+    height: 10%;
+    background-color: aliceblue;
+}
+
+.rolepermissiontag{
+    color: blue;
+    font-size: 22px;
+    align-self: center;
+    padding-left: 55px;
+    font-weight: bold;
+}
+
+.projectmanager{
+    width: 90%;
+    margin-left: 3%;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+.teamlead, .teamtask{
+    width: 80%;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+.projectmanager, .teamlead, .teamtask{
+    height: 8%;
+    margin-top: 1%;
+    align-items: center
+}
+.teamtask{
+    height:  auto !important;
+    width: 99%;
+}
+
+.teamlead{
+    margin-right: 4%;
+    margin-left: 7%;
+}
+
+.pmlabel{
+    font-size: 20px;
+    align-self: center;
+    margin-right: 60%;
+}
+
+.tasklabel{
+    font-size: 18px;
+    align-self: center;
+    margin-left: 3%;
+}
+
+.icondesign{
+    font-size: 16px;
+}
+
+.allcheckbox{
+    margin-left: 1%;
+    font-size: 18px;
+}
+
+.taskdetails{
+    margin-left: 2%;
+}
+
+.taskdetails label{
+    font-size: 12px;
+}
+
+.tasktable{
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.tasktable div:nth-child(2){
+    height: 80px;
+}
+
+.roleline{
+    border-right: 1px solid black;
+    margin-top: 5px;
+    margin-right: 8px;
+}
